@@ -1,0 +1,8 @@
+
+1.Here is the code for Payment number - copia_sales_payment module, sale_order_payment.php ,payment_test.html(for testing),
+
+2. Function( get_agents_outstanding_balance ) in sale_order_payment.php  to create list of vendors grouped by route..
+
+I have created new php and html file for the above functionality ..
+
+Please place this in the respective folder (copia_sms) and let me know your concerns 

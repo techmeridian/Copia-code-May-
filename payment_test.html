@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>SMS Copia - OpenERP Payment Number</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div>
+            <b>Test Form to get data sent by sms </b> <br/>
+            <form method="post" action="file:///C:/Program Files (x86)/OpenERP 7.0-20140422-231307/Server/server/openerp/addons/copia_sms/sales_order_payment.php">
+                
+                <label>Sender Phone </label> <input type="text" value="" name="from"/> (required)<br/>
+                <label>Sale Order Number</label> <input type="text" value="" name="sale_order_no"/> (required) <br/>
+                <label>Payment Number</label> <input type="text" value="" name="payment_no"/> (required) <br/>
+                <label>Amount</label> <input type="text" value="" name="amount"/> (required) <br/>
+
+                <input type="submit" value="Test"/>
+                
+            </form>
+        </div>
+    </body>
+</html>
